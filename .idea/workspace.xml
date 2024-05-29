@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3068a018-ef59-439d-914a-018f69172290" name="Changes" comment="Done">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/words.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/keyin/SuggestionEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/keyin/SuggestionEngine.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,7 +15,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="dev" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -28,6 +26,13 @@
     &quot;assignee&quot;: &quot;Danielhayward1223&quot;
   }
 }</component>
+  <component name="GithubProjectSettings">
+    <option name="branchProtectionPatterns">
+      <list>
+        <option value="master" />
+      </list>
+    </option>
+  </component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/Danielhayward1223/QAP1-SDAT-DEVOPS.git&quot;,
@@ -47,9 +52,10 @@
   "keyToString": {
     "JUnit.SuggestionEngineTest.dbTest.executor": "Run",
     "JUnit.SuggestionEngineTest.executor": "Run",
+    "Maven.QAP1-SDAT-DEVOPS [package].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "test",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/danie/OneDrive/Documents/Semester_4/Data-Structures/LinkedList",
     "onboarding.tips.debug.path": "C:/Users/danie/IdeaProjects/QAP1-SDAT-DEVOPS/src/main/java/com/keyin/Main.java",
@@ -61,6 +67,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\danie\IdeaProjects\QAP1-SDAT-DEVOPS\src\main\resources" />
       <recent name="C:\Users\danie\IdeaProjects\QAP1-SDAT-DEVOPS" />
       <recent name="C:\Users\danie\IdeaProjects\QAP1-SDAT-DEVOPS\src" />
       <recent name="C:\Users\danie\IdeaProjects\QAP1-SDAT-DEVOPS\src\main\java\com\keyin" />
@@ -115,7 +122,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717002772194</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Done">
+      <option name="closed" value="true" />
+      <created>1717004354434</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1717004354434</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
