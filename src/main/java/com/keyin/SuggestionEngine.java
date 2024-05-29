@@ -67,13 +67,7 @@ public class SuggestionEngine {
         Map<String, Long> collectedSuggestions = suggestions
                 .collect(Collectors.groupingBy(Function.identity(), Collectors.counting()));
 
-        return  collectedSuggestions.keySet().stream()
-                .sorted(Comparator
-                        .comparing(collectedSuggestions::get)
-                        .reversed()
-                        .thenComparing(Collator.getInstance()))
-                .limit(10) // limit to top 10 suggestions to keep list consumable
-                .collect(Collectors.joining("\n"));
+         return  null;
     }
 
     public Map<String, Integer> getWordSuggestionDB() {
