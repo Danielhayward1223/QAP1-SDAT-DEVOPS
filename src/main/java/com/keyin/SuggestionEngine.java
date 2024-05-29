@@ -67,7 +67,7 @@ public class SuggestionEngine {
         Map<String, Long> collectedSuggestions = suggestions
                 .collect(Collectors.groupingBy(Function.identity(), Collectors.counting()));
 
-        return  collectedSuggestions.keySet().stream()
+        // return  collectedSuggestions.keySet().stream()
                 .sorted(Comparator
                         .comparing(collectedSuggestions::get)
                         .reversed()
